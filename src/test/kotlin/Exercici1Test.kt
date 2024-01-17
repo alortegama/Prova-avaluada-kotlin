@@ -10,7 +10,7 @@ class Exercici1Test {
     }
 
     @Test
-    fun `Els números haurien de ser tots entre 1 i 50`() {
+    fun `Els numeros haurien de ser tots entre 1 i 50`() {
         val result = generarLlista()
         assertTrue(result.all { it in 1..50 }, "Tots els elements haurien de ser entre 1 i 50")
     }
